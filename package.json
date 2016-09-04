@@ -1,0 +1,25 @@
+{
+  "name": "angular1-webpack",
+  "version": "1.0.0",
+  "description": "Application developed by following Angular-Webpack tutorial from egghead.io",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base app",
+    "build": "NODE_ENV=production webpack && cp app/index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarballa/angular1-webpack.git"
+  },
+  "author": "Sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagarballa/angular1-webpack/issues"
+  },
+  "homepage": "https://github.com/sagarballa/angular1-webpack#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
